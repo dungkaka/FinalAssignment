@@ -100,16 +100,15 @@ public class TestDemo {
         TestDemo.setStudent2();
         TestDemo.setStudent3();
 
-        int select = 0;
 
-        do {
-            System.out.println("1. ");
-            System.out.println("2. ");
-            System.out.println("3. ");
-            System.out.println("4. ");
-            Scanner
-        } while (select != 5);
+        management.showListStudent();
+        management.findID("20150661").showObjectOfStudent();
+        management.findID("20150001").showObjectOfStudent();
+        management.findID("20150002").showObjectOfStudent();
 
+        management.findID("20150661").graduation();
+        management.findID("20150001").graduation();
+        management.findID("20150002").graduation();
     }
 }
 
