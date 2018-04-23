@@ -109,6 +109,8 @@ public class TestDemo {
         management.findID("20150661").graduation();
         management.findID("20150001").graduation();
         management.findID("20150002").graduation();
+
+        System.out.println("A");
     }
 }
 
